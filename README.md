@@ -23,7 +23,9 @@ Please note that **the project is not completed yet** and is still undergoing de
 It's fine, we maintain a public bot called **Cure Bot** that you can invite to your server, visit https://curebot.xyz/invite.
 <br><br>
 
-### Installation (for Selfhosting/Testing)
+
+
+### Getting started (for Testing)
 #### Requirements
 
 * Linux system
@@ -33,7 +35,7 @@ It's fine, we maintain a public bot called **Cure Bot** that you can invite to y
 * We also recommend installing some basic build tools like `node-canvas`. Follow these instructions to install the dependencies;
     * `node-canvas`: **[Linux (Ubuntu/etc)](https://github.com/Automattic/node-canvas/wiki/Installation%3A-Ubuntu-and-other-Debian-based-systems)** (required)
 
-#### Getting started
+#### Installation
 Make sure you have all the required tools installed on your local machine then continue with these steps.
 
 You can clone this repository and host the bot yourself for test.
@@ -51,6 +53,33 @@ Discord Developer Portal](https://discord.com/developers/applications). The form
 ```
 * You need to edit the `app.js` and `/providers/mysql.js`
 * Run a `npm start` or `node app.js` to start bot.
+
+
+#### Contributing
+
+You want to contribute on this Discord Bot, come along, let me tell you how:
+
+1. [Install the necessary softwares.](#Requirements) (Important)
+
+2. Fork this repository.
+<img src="https://i.imgur.com/b1bM9XO.png">
+
+3. Clone the forked repo to your local machine and cd to the directory. You can do so using this command in the git bash: `git clone https://github.com/Your-Username/Cure-Bot`.
+
+4. Create a new branch: `git checkout -b add-features`
+
+5. Make changes to the code. Add, update, change, or fix the code etc.
+
+6. Test/debug your changes by running the bot locally.
+
+7. Commit your changes: `git commit -am 'Add some feature'`
+
+8. Push to the branch: `git push origin add-features`
+
+9. Submit a Pull Request (PR).
+
+Thank you for contributing to this Repository.
+
 
 
 <br><br><br>
