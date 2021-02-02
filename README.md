@@ -11,6 +11,12 @@
 <br>
 
 Cure Bot is a Discord bot written in JavaScript for [Node.js](https://nodejs.org/en/) with Discord.js library and the [Klasa](https://github.com/dirigeants/klasa) framework.
+
+<br><br>
+
+### **Development/WIP Status
+Please note that **the project is not completed yet** and is still undergoing development. If you find any issues you should not panic instead, you should let us know so we can improve on the code. In a situation where you clone and download the project to your local machine.
+
 <br><br>
 
 ### Want to use Cure Bot but don't want to host it yourself?
