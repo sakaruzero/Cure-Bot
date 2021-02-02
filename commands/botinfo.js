@@ -40,7 +40,7 @@ module.exports = class extends Command {
 			.addField(msg.language.get('CMD_BOTINFO_TEXT_EMOJIS'), `\`${(channels || await this.client.emojis.cache.size).toLocaleString()}\``, true)
 			.addField(msg.language.get('TEXT_BOTOWNER'), `\`sparkle#0001\``, true)
 			.addField(msg.language.get('TEXT_WEBSITE'), `[Cure Bot's Website](https://curebot.xyz/)`, true)
-			.attachFiles([{ attachment: '/root/projects/bots/_images/curebot.png' }])
+			.attachFiles([{ attachment: './images/curebot.png' }])
 			.setImage('attachment://curebot.png')
 			.setTimestamp()
 			.setFooter(msg.author.tag)
