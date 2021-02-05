@@ -14,8 +14,8 @@ module.exports = class extends Command {
 	}
 	async run(msg, [string]) {
 
-    const CuresBirthday1 = new Discord.MessageEmbed()
-  	  .setColor(0xFF00F0)
+		const CuresBirthday1 = new Discord.MessageEmbed()
+			.setColor(0xFF00F0)
       .setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
       .setDescription([
 				'**January**',
@@ -36,8 +36,8 @@ module.exports = class extends Command {
       .setTimestamp()
       .setFooter(msg.author.tag);
 
-    const CuresBirthday2 = new Discord.MessageEmbed()
-  	  .setColor(0xFF00F0)
+		const CuresBirthday2 = new Discord.MessageEmbed()
+			.setColor(0xFF00F0)
       .setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
       .setDescription([
 				'**April**',
@@ -68,9 +68,9 @@ module.exports = class extends Command {
       .setFooter(msg.author.tag);
 
 		const CuresBirthday3 = new Discord.MessageEmbed()
-	 	  .setColor(0xFF00F0)
-	     .setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
-	     .setDescription([
+			.setColor(0xFF00F0)
+			.setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
+			.setDescription([
 				 '**July**',
  				'```fix',
  				'JUL. 7  :: Cure Milky (Lala)',
@@ -102,8 +102,8 @@ module.exports = class extends Command {
 
 		const CuresBirthday4 = new Discord.MessageEmbed()
 	 	  .setColor(0xFF00F0)
-	     .setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
-	     .setDescription([
+			.setTitle(msg.language.get('CMD_PRECURE_TITLE_BIRTHDAY'))
+			.setDescription([
 				'**October**',
 				'```fix',
 				'OCT. 4  :: Cure Sparkle (Hinata)',
