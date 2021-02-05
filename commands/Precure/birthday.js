@@ -33,8 +33,7 @@ module.exports = class extends Command {
 				'MAR. 10 :: Cure Mint (Komachi)',
 				'```'
       ])
-      .setTimestamp()
-      .setFooter(msg.author.tag);
+      .setTimestamp();
 
 		const CuresBirthday2 = new Discord.MessageEmbed()
 			.setColor(0xFF00F0)
@@ -64,8 +63,7 @@ module.exports = class extends Command {
 				'JUN. 12 :: Cure Miracle (Mirai)',
 				'```'
       ])
-      .setTimestamp()
-      .setFooter(msg.author.tag);
+      .setTimestamp();
 
 		const CuresBirthday3 = new Discord.MessageEmbed()
 			.setColor(0xFF00F0)
@@ -97,8 +95,7 @@ module.exports = class extends Command {
 				'SEP. 24 :: Cure Chocolat (Akira)',
 				'```'
 	     ])
-	     .setTimestamp()
-	     .setFooter(msg.author.tag);
+	     .setTimestamp();
 
 		const CuresBirthday4 = new Discord.MessageEmbed()
 	 	  .setColor(0xFF00F0)
@@ -127,8 +124,7 @@ module.exports = class extends Command {
 				'DEC. 15 :: Cure Scarlet (Towa)',
 				'```'
 	     ])
-	     .setTimestamp()
-	     .setFooter(msg.author.tag);
+	     .setTimestamp();
 
 		const pages = [
 			CuresBirthday1,
@@ -137,7 +133,8 @@ module.exports = class extends Command {
 			CuresBirthday4
 		];
 		const footerResolver = (currentPageIndex, pagesLength) =>
-			`Page ${currentPageIndex + 1} / ${pagesLength} • ${(currentPageIndex % 2 === 0) ? msg.author.tag : msg.author.tag}`;
+			`Page ${currentPageIndex + 1} / ${pagesLength} • ${msg.author.tag}`;
+		if (msg.channel.type === 'dm') return;
 		ptnEmbed(msg, pages, { footerResolver, timeout: 120000, idle: 60000 });
   };
 
